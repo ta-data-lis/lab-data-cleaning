@@ -20,7 +20,7 @@ When you are on `main.ipynb`, read the instructions for each cell and provide yo
 
 In this lab, you will examine some MySQL tables from [here](https://relational.fit.cvut.cz/dataset/Stats). This database contains an anonymized dump of all user-contributed content on the Stats Stack Exchange network.
 
-First, follow the instrucctions "How to download the dataset" from [here](https://relational.fit.cvut.cz/dataset/Stats).
+First, follow the instructions "How to download the dataset" from [here](https://relational.fit.cvut.cz/dataset/Stats).
 You will need to import the database to your workbench/SQLPro.
 
 Then you will open your Jupyter Notebook. You will need to import the `mysql.connector` library.
