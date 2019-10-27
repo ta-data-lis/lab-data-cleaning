@@ -16,27 +16,7 @@ In this lab you will be working on [main.ipynb](your-code/main.ipynb). To launch
 
 When you are on `main.ipynb`, read the instructions for each cell and provide your answers. Make sure to test your answers in each cell and save. Jupyter Notebook should automatically save your work progress - But it's a good idea to periodically save your work manually, just in case.
 
-## Goals
-
-In this lab, you will examine some MySQL tables from [here](https://relational.fit.cvut.cz/dataset/Stats). This database contains an anonymized dump of all user-contributed content on the Stats Stack Exchange network.
-
-First, follow the instructions "How to download the dataset" from [here](https://relational.fit.cvut.cz/dataset/Stats).
-You will need to import the database to your workbench/SQLPro.
-
-Then you will open your Jupyter Notebook. You will need to import the `mysql.connector` library.
-
-```python
-import mysql.connector
-cnx = mysql.connector.connect(user='guest', password='relational', host='relational.fit.cvut.cz', database='stats', use_pure=True)
-```
-
-:bulb: If you receive import errors for `mysql.connector`, it means you need to install them with `pip`. (You can try `pip install MySQL-connector-python`)
-
-Once your connection is established with the database you will use some basic SELECT queries to retrieve the data in order to answer the questions described next.
-
 ### Challenge Questions
-
-1. Connect to the server and collect all the data from users and posts tables.
 
 1. Create a merged dataframe with users and post tables. **Take into account that you will need to do some stuff before merging.**
 
