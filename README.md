@@ -4,13 +4,22 @@
 
 ## Introduction
 
-We keep seeing a common phrase that 80% of the work of a data scientist is data cleaning. We have no idea whether this number is accurate but a data scientist indeed spends lots of time and effort in collecting, cleaning and preparing the data for analysis. This is because datasets are usually messy and complex in nature. It is a very important ability for a data scientist to refine and restructure datasets into a usable state in order to proceed to the data analysis stage.
+We keep seeing a common phrase that 80% of the work of a data scientist is data cleaning.
+We have no idea whether this number is accurate but a data scientist indeed spends 
+lots of time and effort in collecting, cleaning and preparing the data for analysis. 
+This is because datasets are usually messy and complex in nature. 
+It is a very important ability for a data scientist to refine and restructure datasets 
+into a usable state in order to proceed to the data analysis stage.
 
-In this exercise, you will both practice the data cleaning techniques we discussed in the lesson and learn new techniques by looking up documentations and references. You will work on your own but remember the teaching staff is at your service whenever you encounter problems.
+In this exercise, you will both practice the data cleaning techniques we discussed in the 
+lesson and learn new techniques by looking up documentations and references. 
+You will work on your own but remember the teaching staff is at your service whenever you 
+encounter problems.
 
 ## Getting Started
 
-Now you should already be familar with the workflow of solving and submitting the labs. But in case not, you can review previous labs.
+Now you should already be familar with the workflow of solving and submitting the labs. 
+But in case not, you can review previous labs.
 
 In this lab you will be working on [main.ipynb](your-code/main.ipynb). To launch it, first navigate to the directory that contains `main.ipynb` in Terminal, then execute `jupyter notebook`. In the webpage that is automatically opened, click the `main.ipynb` link to launch it.
 
@@ -18,15 +27,19 @@ When you are on `main.ipynb`, read the instructions for each cell and provide yo
 
 ### Challenge Questions
 
-1. Create a merged dataframe with users and post tables. **Take into account that you will need to do some stuff before merging.**
+1. Create a merged dataframe with users and post tables. 
+**Take into account that you will need to do some stuff before merging.**
 
 1. Identify missing values in the merged dataframe and apply some of the methods.
 
 1. Change the data types of your merged dataset accordingly.
 
-1. Bonus Question: Create a dataframe with the outliers you have identified in the dataframe and export it to a csv file in your-code folder.
+1. Bonus Question: Create a dataframe with the outliers you have identified in the dataframe 
+and export it to a csv file in your-code folder.
 
-**:exclamation: If you feel you are already good at Python/Pandas and don't need the instructions in `main.ipynb` to walk you through, please feel free to skip `main.ipynb` and create your own solution file.**
+**:exclamation: If you feel you are already good at Python/Pandas and don't need the 
+instructions in `main.ipynb` to walk you through, please feel free to skip `main.ipynb` 
+and create your own solution file.**
 
 ## Deliverables
 
@@ -35,7 +48,8 @@ When you are on `main.ipynb`, read the instructions for each cell and provide yo
 
 ## Submission
 
-Upon completion, add your deliverables to git. Then commit git, push to your forked repo, and create the pull request as in the
+Upon completion, add your deliverables to git. 
+Then commit git, push to your forked repo, and create the pull request as in the
 
 ```
 git add .
